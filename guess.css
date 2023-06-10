@@ -1,0 +1,146 @@
+.navbar {
+    width: 100%;
+    height: auto;
+}
+
+html {
+    background-color: black;
+    font-family: my;
+
+}
+.container {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+@font-face {
+    font-family: my;
+    src: url(prstartk.ttf) format("ttf");
+}
+
+
+.between {
+    position: relative;
+    left: 45%;
+    transform: translateX(65%);
+    font-size: 24px;
+}
+
+
+.header {
+    margin-top: 60px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line {
+    height: 5px;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    top:46.5%;
+    z-index: 4;
+}
+
+.actual-number-section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.actual-number {
+    width: 150px;
+    height: 130px;
+    display: flex;
+    border: solid 1px white;
+    justify-content: center;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-size: 70px;
+    z-index: 66;
+}
+
+.actual-number p {
+
+    
+}
+
+.header h1 {
+    position: relative;
+}
+.btn-again {
+    width: 150px;
+    height: 60px;
+    background-color: white;
+    border-color: white;
+    border: 1px;
+    position: relative;
+    left: 15%;
+    transform: translateX(15%);
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+
+}
+
+.section-action {
+    display: flex;
+    margin-top: 80px;
+}
+
+.check {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#guessNumber {
+
+    width: 220px;
+    height: 109px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 56px;
+    font-family: "Press Start 2P", cursive;
+
+}
+
+.check button {
+    margin-top: 20px;
+    width: 100px;
+    height: 46px;
+    font-family: "Press Start 2P", cursive;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+
+
+.result {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 14%;
+}
+
+.action {
+    display: inline-flex;
+    align-items: center;
+
+}
+

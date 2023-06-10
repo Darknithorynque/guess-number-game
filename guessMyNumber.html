@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="guess.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <button class="btn-again"><p>Again !</p></button>
+            <span class="between">< Between 1 and 20 ></span>
+        </div>
+        <div class="header">
+            <h1>Guess My Number</h1>
+            <div class="actual-number-section">
+                <span class="actual-number">?</span>
+                <div class="line"></div>
+
+            </div>
+        </div>
+        <div class="section-action">
+            <div class="check">
+                <input id="guessNumber" value="?" placeholder="?" type="number">
+
+                <button  id="checkButton" class="btn-check">Check !</button>
+            </div>
+            <div class="result">
+                <div class="action">
+                    <p class="too-low"></p>              
+                </div>
+                <div class="action">
+                    <p>Score : <span id="score">20</span></p>              
+                </div>
+                <div class="action">
+                   <p>Highscore: <span id="highscore"></span></p>              
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="dom.js"></script>
+</body>
+
+</html>
